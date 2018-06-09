@@ -3,13 +3,9 @@
     <div class="profile-content">
       <Profile></Profile>
     </div>
-    <div class="category-nav">
-      <CategoryNav></CategoryNav>
-    </div>
+    <CategoryNav></CategoryNav>
     <div class="blog-content">
-      <img src="./assets/logo.png">
       <router-view/>
-      <el-button type="primary" plain>主要按钮</el-button>
     </div>
   </div>
 </template>
